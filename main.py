@@ -25,7 +25,7 @@ def insert_coins(price):
     else:
         change = round((total - price), 2)
         print(f"Here is your change: ${change}")
-        return change
+        return price
 
 
 print("Welcome to the coffee machine.")
